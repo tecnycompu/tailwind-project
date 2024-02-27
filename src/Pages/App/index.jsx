@@ -1,13 +1,13 @@
 import { useRoutes , BrowserRouter } from 'react-router-dom';
 import Navbar from '../../Components/Navbar'
 import Home from '../Home'
-import Developers from '../Developers'
+import Asian from '../Asian'
 import './App.css'
 
 const AppRoutes = () => {
   let routes = useRoutes([
     { path:'/', element:<Home />},
-    { path: '/Developers', element: <Developers /> },
+    { path: '/Asian', element: <Asian /> },
   ])
   return routes
 }
