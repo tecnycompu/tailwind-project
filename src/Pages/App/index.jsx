@@ -1,5 +1,6 @@
 import { useRoutes , BrowserRouter } from 'react-router-dom';
-import Home from '../Home';
+import Navbar from '../../Components/Navbar'
+import Home from '../Home'
 import Developers from '../Developers'
 import './App.css'
 
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <AppRoutes />
+      <Navbar />
     </BrowserRouter>
   )
 }
